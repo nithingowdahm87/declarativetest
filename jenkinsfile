@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('git checkout') {
             steps {
-                https://github.com/nithingowdahm87/maven-test.git
+                git ' https://github.com/nithingowdahm87/maven-test.git'
             }
         }
         stage('build') {
